@@ -3,6 +3,8 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="{{ asset('js/app.js') }}" defer></script>
+        <link href="{{ asset('css/app.css') }}" rel="stylesheet">
 
         <title>Laravel</title>
 
@@ -82,6 +84,10 @@
             <div class="content">
                 <div class="title m-b-md">
                     Laravel
+                </div>
+
+                <div id="app">
+                <example-component></example-component>
                 </div>
 
                 <div class="links">

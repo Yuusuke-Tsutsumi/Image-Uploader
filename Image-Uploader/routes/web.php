@@ -14,3 +14,11 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/sample',function(){
+    return view('sample');
+});
+
+Route::get('/uploader',function(){
+    return view('uploader');
+});
